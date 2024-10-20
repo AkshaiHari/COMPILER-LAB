@@ -28,7 +28,7 @@ int main()
         {
             stk[i]=a[j];
             stk[i+1]='\0';
-            a[j]='\0';
+            a[j]=' ';
             printf("\n$%s\t%s$\t%ssymbol",stk,a,act);
             check();
         }
